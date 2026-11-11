@@ -1,0 +1,8 @@
+name: abrir-navegador
+run: powershell -NoProfile -ExecutionPolicy Bypass -File abrir.ps1
+interactive: true
+timeout: 2m
+output_encoding: oem
+params:
+  - name: site
+    default: https://www.nextsi.com.br
